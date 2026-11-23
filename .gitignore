@@ -11,3 +11,13 @@ dist/
 # IDE & OS
 .vscode/
 .DS_Store
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Judge sandbox temp files
+judge-worker/temp/
+*.exe
+*.out
